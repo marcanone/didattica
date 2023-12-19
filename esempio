@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+td , th {border:0px solid;
+        text-align:center;
+}
+
+</style>
+
+</head>
+    <body>
+<table width="100%">  
+    <!--Table è il blocco tabella mentre tr traccia le righe
+    le celle invece usano th per l'intestazione e td per
+una cella normale, colspan permette di unire 2 celle in orizzontale
+e rowspan unisce 2 celle in verticale--> 
+    <tr>
+        <th colspan="2" align="center">Nome e Cognome</th>
+        
+        <th rowspan="2" align="center">Telefono: 06123456</th>
+        <th>Bandiere</th>
+    </tr>
+    <tr>
+        <td colspan="2">Mario Rossi </td>
+        <td align="center"><img src="https://cdn.pixabay.com/photo/2017/11/05/08/38/christmas-2919725_1280.jpg" width="30px" height="15px"></td>
+    </tr>
+ 
+</table>
+
+
+    </body>
+</html>
